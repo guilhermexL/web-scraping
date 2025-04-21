@@ -14,12 +14,14 @@ Allow users to enter a search keyword and view the following information for eac
 ## 🧰 Technologies Used
 
 ### Backend
+
 - [Bun](https://bun.sh/) – Ultra-fast JavaScript runtime
 - [Express](https://expressjs.com/)
 - [Axios](https://axios-http.com/)
 - [JSDOM](https://github.com/jsdom/jsdom)
 
 ### Frontend
+
 - [Vite](https://vitejs.dev/)
 - HTML, CSS, Vanilla JavaScript
 
@@ -69,6 +71,8 @@ Allow users to enter a search keyword and view the following information for eac
 
 > The frontend will usually run at `http://localhost:5173`
 
+### ❗ Important: Run in separeted terminals
+
 ## 🧪 How to Use
 
 1. Open the frontend in your browser.  
@@ -76,27 +80,10 @@ Allow users to enter a search keyword and view the following information for eac
 3. Click the **Search** button.  
 4. The scraped results will be displayed in a clean format.
 
-## 📁 Project Structure
-
-```
-├── backend/
-│   ├── index.js (or app.js)
-│   ├── package.json
-│   └── ...
-├── frontend/
-│   ├── index.html
-│   ├── main.js
-│   ├── style.css
-│   └── ...
-└── README.md
-```
-
 ## 🧹 Final Notes
 
 - Be aware that Amazon may block frequent requests or bots. This project is for educational purposes only.
 - If Amazon's layout changes, scraping might break. You’ll need to update the HTML selectors in the code.
-
----
 
 ## 📝 Author
 
