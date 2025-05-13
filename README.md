@@ -1,90 +1,96 @@
-# 📦 Amazon Scraper with Bun + Vite
+# Scraper da Amazon com Bun + Vite
 
-This is a simple fullstack project that scrapes product listings from the first page of Amazon search results based on a keyword entered by the user.
+Este é um projeto fullstack simples que coleta listagens de produtos da primeira página de resultados de busca da Amazon com base em uma palavra-chave inserida pelo usuário.
 
-## 🔍 Objective
+## Objetivo
 
-Allow users to enter a search keyword and view the following information for each product found:
+Permitir que os usuários insiram uma palavra-chave de busca e visualizem as seguintes informações de cada produto encontrado:
 
-- Product title  
-- Rating (stars)  
-- Number of reviews  
-- Product image URL
+* Título do produto
+* Avaliação (estrelas)
+* Número de avaliações
+* URL da imagem do produto
 
-## 🧰 Technologies Used
+## Tecnologias Utilizadas
 
 ### Backend
 
-- [Bun](https://bun.sh/) – Ultra-fast JavaScript runtime
-- [Express](https://expressjs.com/)
-- [Axios](https://axios-http.com/)
-- [JSDOM](https://github.com/jsdom/jsdom)
+* [Bun](https://bun.sh/) – Runtime JavaScript ultrarrápido
+* [Express](https://expressjs.com/)
+* [Axios](https://axios-http.com/)
+* [JSDOM](https://github.com/jsdom/jsdom)
 
 ### Frontend
 
-- [Vite](https://vitejs.dev/)
-- HTML, CSS, Vanilla JavaScript
+* [Vite](https://vitejs.dev/)
+* HTML, CSS e JavaScript puro (Vanilla JS)
 
-## ⚙️ How to Run the Project
+## Como Executar o Projeto
 
-### Prerequisites
+### Pré-requisitos
 
-- [Bun](https://bun.sh/docs/installation) installed  
-- [Node.js and npm](https://nodejs.org/) for the frontend (Vite)
+* [Bun](https://bun.sh/docs/installation) instalado
+* [Node.js e npm](https://nodejs.org/) para o frontend (Vite)
 
-### 🔧 Backend
+### Backend
 
-1. Clone the repository:
+1. Clone o repositório:
+
    ```bash
-   git clone https://github.com/your-username/repository-name.git
-   cd repository-name/backend
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio/backend
    ```
 
-2. Install dependencies:
+2. Instale as dependências:
+
    ```bash
    bun install
    ```
 
-3. Start the server:
+3. Inicie o servidor:
+
    ```bash
    bun run dev
    ```
 
-> The backend will be available at `http://localhost:3000/api/scrape?keyword=example`
+> O backend estará disponível em `http://localhost:3000/api/scrape?keyword=exemplo`
 
-### 🎨 Frontend
+### Frontend
 
-1. Navigate to the frontend folder:
+1. Navegue até a pasta do frontend:
+
    ```bash
    cd ../frontend
    ```
 
-2. Install dependencies:
+2. Instale as dependências:
+
    ```bash
    npm install
    ```
 
-3. Run the development server:
+3. Execute o servidor de desenvolvimento:
+
    ```bash
    npm run dev
    ```
 
-> The frontend will usually run at `http://localhost:5173`
+> O frontend geralmente roda em `http://localhost:5173`
 
-### ❗ Important: Run in separeted terminals
+### Importante: Rode em terminais separados
 
-## 🧪 How to Use
+## Como Usar
 
-1. Open the frontend in your browser.  
-2. Enter a search keyword (e.g., "laptop").  
-3. Click the **Search** button.  
-4. The scraped results will be displayed in a clean format.
+1. Abra o frontend no seu navegador.
+2. Digite uma palavra-chave de busca (ex: "notebook").
+3. Clique no botão **Buscar**.
+4. Os resultados coletados serão exibidos em um formato limpo.
 
-## 🧹 Final Notes
+## Notas Finais
 
-- Be aware that Amazon may block frequent requests or bots. This project is for educational purposes only.
-- If Amazon's layout changes, scraping might break. You’ll need to update the HTML selectors in the code.
+* Fique atento: a Amazon pode bloquear requisições frequentes ou bots. Este projeto é apenas para fins educacionais.
+* Se o layout da Amazon mudar, o scraping pode parar de funcionar. Nesse caso, será necessário atualizar os seletores HTML no código.
 
-## 📝 Author
+## Autor
 
-Developed by [Guilherme](https://www.linkedin.com/in/guilhermee-santos/)
+Desenvolvido por [Guilherme](https://www.linkedin.com/in/guilhermee-santos/)
