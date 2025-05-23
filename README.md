@@ -37,8 +37,8 @@ Permitir que os usuários insiram uma palavra-chave de busca e visualizem as seg
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio/backend
+   git clone https://github.com/guilhermexL/web-scraping.git
+   cd web-scraping/backend
    ```
 
 2. Instale as dependências:
