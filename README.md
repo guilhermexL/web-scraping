@@ -52,7 +52,7 @@ Permitir que os usuários insiram uma palavra-chave de busca e visualizem as seg
    ```bash
    bun run dev
    ```
-
+>[!NOTE]
 > O backend estará disponível em `http://localhost:3000/api/scrape?keyword=exemplo`
 
 ### Frontend
